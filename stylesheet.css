@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #EDEAE5;
+}
+
+header
+{
+    height: 100px;
+    margin-top: 30px;
+    border-bottom: 2px solid #026670;
+}    
+header img
+{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+
+
+header nav a
+{   
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #026670;
+    font-size: 15pt;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 800;
+}
+
+header a:hover
+{  
+    text-decoration: underline;
+}
