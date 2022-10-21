@@ -9,15 +9,13 @@ header
 {
     height: 100px;
     margin-top: 30px;
-    border-bottom: 2px solid #026670;
+    border-bottom: 1px solid #026670;
 }    
 header img
 {
     margin-left: 20px;
     margin-right: 40px;
 }
-
-
 
 header nav a
 {   
@@ -35,4 +33,208 @@ header nav a
 header a:hover
 {  
     text-decoration: underline;
+}
+
+main
+{
+    margin-top: 50px;
+    align-content: center; 
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+.firstarticle img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+
+.nyeste
+{
+    margin-top: 200px;
+    margin-bottom:60px; 
+}
+
+.nyeste h1
+{
+    position:relative;
+    color:black;
+    text-align:center;
+    font-size:60pt;
+    letter-spacing:-1px;    
+    font-weight:lighter;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.cardscontainer
+{
+    align-content: center;
+    text-decoration: none;
+    width:100%;
+    display: flex;
+    justify-content:space-evenly;
+    min-width: 950px;
+    flex-wrap: wrap;
+}
+
+#topicbox
+{
+    color: #026670;
+    font-family: 'Quicksand', sans-serif;       
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: bold;
+
+}
+
+#cardstitel
+{
+    color:black;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18pt;
+    padding: 2px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: bolder;
+}
+
+
+.cardscontainer img:hover
+{
+    transform: scale(1.03);
+    transition: all 1s ease ;
+
+}
+
+footer
+{
+    border-top: 1px solid #026670;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+.footcontainer
+{
+    display: flex;
+    text-align: center;
+    color: white;
+    position: sticky;
+}
+
+.footcontainer p
+{
+    color: black;
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 80px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.email-box{
+  height:50px;
+  justify-content: center;
+  display: inline-flex; /*its better to use inline-flex*/
+}
+.email-box i{
+    border-radius: 15px 0px 0px 15px;
+
+  background: #026670;
+  width: 70px;
+  line-height: 50px;
+}
+.tbox,.btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+  font-size: 12pt;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 280px;
+  padding: 0 10px;
+}
+.btn{
+    border-radius: 0px 15px 15px 0px;
+    background: #026670;
+    color: white;
+    padding: 0px 10px;
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+
+}
+
+.footcontainer div
+{
+    display: flex;
+}
+
+#secondcontainer img
+{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+
+#firstcontainer
+{
+    display: inline;
+    justify-content: start;
+    position:relative;
+    margin-left: 150px;
+    
+
+}
+
+#secondcontainer
+{
+    position: sticky;
+    display: inline;
+    justify-content: flex-end;
+    position:relative;
+    margin-left:300px;
+    margin-top: 50px;
+
+}
+
+#secondcontainer nav a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #026670;
+    font-size: 15pt;
+    justify-content: space-evenly; 
+    display: inline-block;
+}
+
+#some img
+{ 
+    width: 60%;
+    padding-left: 10px;
+}
+
+#some
+{
+    margin-top: 20px;
+    margin-left: 220px;
 }
