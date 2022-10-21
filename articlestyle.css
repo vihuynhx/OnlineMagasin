@@ -17,17 +17,7 @@
 
 }
 
-#tid
-{
-    width: 20%;
-    margin-top: -5px;
-    margin-bottom: -70px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-content: center;
 
-}
 
 .pastapic h1
 {
@@ -39,14 +29,32 @@
     margin-bottom: 10px;
 }
 
-.pastapic p
+#tid
 {
-    margin-top: 10px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+}
+#foodtease
+{
+    margin-top:-100px;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 15pt;
     color: black;
-    font-weight: normal;
+    font-weight:500; 
+}
+ #tease
+{
+    margin-top: 11px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15pt;
+    color: black;
+    font-weight:500;
 }
 
 body
@@ -90,6 +98,156 @@ body
     line-height: 2;
 }
 
+.rubrik
+{
+    align-content: center;
+}
+
+.rubrik h1
+{
+    font-size: 40pt;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-transform:uppercase; 
+}
+
+#underrubrik
+{
+    font-size: 13pt;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-transform:uppercase; 
+    margin-bottom: 10px;
+    color: gray;
+}
 
 
-    
+.sparbox1, .sparbox3, .sparbox5
+{
+    width: 1000px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: #d1c6be;
+}
+
+.sparbox2, .sparbox4, .sparbox6
+{
+    width: 1000px;
+    height: 320px;
+    margin: 0 auto;
+    background-color:  #e8ded1;
+}
+
+.sparbox1 h1, .sparbox3 h1, .sparbox5 h1
+{
+    margin-top: 50px;
+    padding-left: 10px;
+    font-size: 30pt;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-transform:uppercase; 
+    background-color: #d1c6be;
+    padding-top: 10px;
+}
+
+.sparbox1 p, .sparbox3 p, .sparbox5 p
+{   
+    background-color: #d1c6be;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14pt;
+    line-height:1.2 ;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.sparbox2 h1, .sparbox4 h1, .sparbox6 h1
+{
+    margin-top: 50px;
+    padding-left: 10px;
+    font-size: 30pt;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-transform:uppercase; 
+    background-color: #e8ded1;
+    padding-top: 10px;
+}
+
+.sparbox2 p, .sparbox4 p, .sparbox6 p
+{   
+    background-color: #e8ded1;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14pt;
+    line-height:1.2 ;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rubrik img
+{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.ideer
+{
+    margin-top: 60px;
+}
+
+#idetitel
+{   
+    font-size: 30pt;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+#idetekst
+{
+   
+    font-size: 13pt;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+
+.ideer img
+{
+    margin-left:160px;
+}
+
+ul.a 
+{
+    list-style-type: circle;
+    font-size: 13pt;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+  
+.forfatter
+{
+    font-size: 10pt;
+    color: gray;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 6px;
+    margin-left: 260px;
+}
